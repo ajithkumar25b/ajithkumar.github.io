@@ -8,7 +8,7 @@
   "background_color": "#fff",
   "theme_color": "#000",
   "share_target": {
-      "action": "target.html",
+      "action": "mytarget.html",
       "method": "GET",
       "params": {
         "title": "title",
