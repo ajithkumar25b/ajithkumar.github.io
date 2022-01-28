@@ -19,14 +19,16 @@
       <h1>Target File</h1>
 
       <h3>Received data</h3>
+      <label for="textReceive">Text :: </label>
       <input type= "text" id="textReceive"/>
+      <label for="titleReceive">Title :: </label>
       <input type= "text" id="titleReceive"/>
+      <label for="urlReceive">URL :: </label>
       <input type= "text" id="urlReceive"/>
 
     </div>
     <script>
         window.addEventListener('DOMContentLoaded', () => {
-          document.getElementById('href').textContent = window.location.href;
           const parsedUrl = new URL(window.location);
           document.getElementById('textReceive').value = parsedUrl.searchParams.get('title');
           document.getElementById('titleReceive').value = parsedUrl.searchParams.get('text');
