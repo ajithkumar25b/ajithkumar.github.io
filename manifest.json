@@ -7,6 +7,15 @@
   "orientation": "portrait",
   "background_color": "#fff",
   "theme_color": "#000",
+  "share_target": {
+      "action": "target.html",
+      "method": "GET",
+      "params": {
+        "title": "title",
+        "text": "text",
+        "url": "url"
+      }
+    },
   "icons": [
     {
       "src": "assets/images/icon.png",
