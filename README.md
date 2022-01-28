@@ -1,1 +1,2 @@
-# WebDevelopmentLab1
+# pwa-boilerplate
+Basic vanilla PWA boilerplate repository
