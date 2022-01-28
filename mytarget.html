@@ -28,9 +28,9 @@
         window.addEventListener('DOMContentLoaded', () => {
           document.getElementById('href').textContent = window.location.href;
           const parsedUrl = new URL(window.location);
-          document.getElementById('textReceive').textContent = parsedUrl.searchParams.get('title');
-          document.getElementById('titleReceive').textContent = parsedUrl.searchParams.get('text');
-          document.getElementById('urlReceive').textContent = parsedUrl.searchParams.get('url');
+          document.getElementById('textReceive').value = parsedUrl.searchParams.get('title');
+          document.getElementById('titleReceive').value = parsedUrl.searchParams.get('text');
+          document.getElementById('urlReceive').value = parsedUrl.searchParams.get('url');
         });
       </script>
   </body>  
